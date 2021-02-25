@@ -27,3 +27,38 @@ body {
 #submit1:hover {
 	background-color: #3DB150;
 }
+#content3 {
+	background: #EAECEA;
+    color: #000;
+	display:none;
+	
+	position: relative;
+    padding: 20px;
+    margin-top: 10px;
+}
+li {
+	padding: 10px;
+}
+ul {
+	list-style-type:none;
+}
+
+.valid {
+    color: green;
+}
+
+.valid:before {
+    position: relative;
+    left: -35px;
+    
+}
+
+/* Add a red text color and an "x" when the requirements are wrong */
+.invalid {
+    color: red;
+}
+
+.invalid:before {
+    position: relative;
+    left: -35px; 
+}
